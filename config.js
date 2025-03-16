@@ -21,7 +21,7 @@ global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md-
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
 global.website =process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/TgwRyHR/Ephoto360-com-166de101e03cd7.jpg" || "https://i.ibb.co/bH1kbX0/a4c0b1af253197d4837ff6760d5b81c0.jpg" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "Made With LOVE!" 
+global.caption = process.env.CAPTION || global.caption || "Made With PAGNGNASIRI!" 
 
 
 global.devs = "" // Developer Contacts
@@ -61,7 +61,7 @@ global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xx
 global.api_smd = "https://api-smd.onrender.com/" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://suhail-md-vtsf.onrender.com";
 
-global.SESSION_ID = process.env.SESSION_ID  || ""  // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID  || "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib0MrcEVpYkt5Q0dIaWRoQk5VOG82UE5QaFlFRmV5dXBjNHptOUhRQlZYcz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT3pybWRKeEE0aUZBZE43azdLVk9xYy9PME9TVHg3V1NTOXlvYkE0aDIwQT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJnR2duVWMwYTczOUpFeVhUckhodEFCbnYzeXJtN25DK3FqRGhnSiswTkZBPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJMSFYzaE1FVHlxRlZzSXlZN1A2UmdxVDdiYXNKVVhKejJMbHREYTRySENvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlNHZW1MbHVJUVpPS3BGcWhwd1BPRGlFSHREUDZBTmZSV1RXcm12aDMwMkk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImFqU3dMVE5Rb2hhN24vb0IwZWprOFN1U0cwUjM5QVE3TEVDNEpoem9UeUU9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY1BZdDlkMGpLalVIUU5KeGJhbENmM25iUWZVcGFPeWMvUjZsZE5SWDYwbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYTRsMWVFZjRHakZPRTNCZXJpQzcxcVRaT05JeDk3cklHSXlnVFRUNkpGST0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InZiUzFsZGZXYW9KWFFZTVBNNjYwZXU1YjJUWTIxMzQ4N2s0VGg1dEQ2cld5aURPeW9FSC9Sa1ZobUtlN1g1SmtNaWFadFBMQzg0b0c3Y1kvT25VcWpBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTY0LCJhZHZTZWNyZXRLZXkiOiJjMlA4dlpGcm5HMkZ0cXFJWE11ODRxSnVsczY2K1ZYc0l0RVR4ZDFRbmhNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJuQzU4cWJYWlN4MmRSY3kxbU8xY29nIiwicGhvbmVJZCI6ImNmYTFlZmI0LTNlMjEtNDgzNS04ZDhkLTMwODJiMmU1NjY3MSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDYk9aVWVZVk9PRlYvS0RXazcxYjJOb1RxRXc9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWjV4K0o4TFN6ZFVzYVRwY25hbEZYVGFGcEtnPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkFHMjdUOUJSIiwibWUiOnsiaWQiOiI5NDc1MjY3NzgwNDozQHMud2hhdHNhcHAubmV0IiwibmFtZSI6IlBhZ25nbmFzaXJpIFRoZXJvIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNMaXdzLzhERUpPZTJyNEdHQU1nQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiI1UDAwVWN2UDZJNk5wRStMcWEyR3k3Y1NXQ3p4U3FIbHRSR3FYejhIZVJJPSIsImFjY291bnRTaWduYXR1cmUiOiJoaFhqTS9udlZUVC9sZnRvd3JoVFlQdHBZMERtcWVEVzlCQlN2UittbU1RTDBHTHZlSng4aDQ5alFhSC96dFlJYzQyc0ZXenh3d0pCQlBPR2RrcGZEQT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiVFozR1hrYWgyc243aWFZZDlWdnNYV2RRa3JnVU1QWDgrRm5wWWFMU2JEOWpETVZlUEtUdmhKWC9nMGxKaUNmcEZpMmJQcnNobElZWGFuRWI3NXVaalE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI5NDc1MjY3NzgwNDozQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmVUOU5GSEx6K2lPamFSUGk2bXRoc3UzRWxnczhVcWg1YlVScWw4L0Iza1MifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3NDIxMTQ1OTMsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSVgyIn0="  // PUT your SESSION_ID 
 
 
 module.exports = {
@@ -75,7 +75,7 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-MD",
+  botname : process.env.BOT_NAME  || "PAGNGNASIRI",
   ownername:process.env.OWNER_NAME|| "Suhail:Shy<3",
 
 
