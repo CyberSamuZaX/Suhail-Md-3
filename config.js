@@ -20,13 +20,13 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md-3";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
 global.website =process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/TgwRyHR/Ephoto360-com-166de101e03cd7.jpg" || "https://i.ibb.co/bH1kbX0/a4c0b1af253197d4837ff6760d5b81c0.jpg" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "Made With PAGNGNASIRI!" 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://avatars.githubusercontent.com/u/140577992?v=4.jpg" || "https://avatars.githubusercontent.com/u/140577992?v=4.jpg" ; // SET LOGO FOR IMAGE 
+global.caption = process.env.CAPTION || global.caption || "PAGNGNASIRI Thero" 
 
 
 global.devs = "" // Developer Contacts
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "94752677804";
 
 
 
@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "" //"https://i.ibb.co/pXyNHj8/suhail.jpg" // "image" // set Image/video urls here
+global.userImages= process.env.USER_IMAGES || "https://avatars.githubusercontent.com/u/140577992?v=4.jpg" //"https://i.ibb.co/pXyNHj8/suhail.jpg" // "image" // set Image/video urls here
 global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -55,7 +55,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,94752677804";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
 
 global.api_smd = "https://api-smd.onrender.com/" //  || "https://api-smd-1.vercel.app" // expires
@@ -66,24 +66,24 @@ global.SESSION_ID = process.env.SESSION_ID  || "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "PAGNGNASIRI Thero", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "3.0.1-developement",
-  caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ GlobalTechInfo ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@GlobalTechInfo"),
+  caption : global.caption || "『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pagngnasiri thero ® 』```" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ GlobalTechInfo ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@GlobalTechInfo"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
+  author : process.env.PACK_AUTHER|| "pagngnasiri",
+  packname: process.env.PACK_NAME || "pagngnasiri",
   botname : process.env.BOT_NAME  || "PAGNGNASIRI",
-  ownername:process.env.OWNER_NAME|| "Suhail:Shy<3",
+  ownername:process.env.OWNER_NAME|| "PAGNGNASIRI:Shy<3",
 
 
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "sk-proj-F0Z42Pm6U_eewiPJaR6kCKy6Lx_X74HViDMWXC7DPfMi0DoxBfwXZ1pM4w0pzWN_PK9BEkVUNiT3BlbkFJfQKyxN8pRqCZU-GAXA_fEfH5qsSzbzqkzCcHJ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
